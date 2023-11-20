@@ -1,0 +1,53 @@
+.productsSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.productsSection h2 {
+    font-size: 40px;
+}
+
+.productsSection p {
+    font-size: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 50%;
+    height: 25rem;
+    background-color: rgb(241, 241, 241);
+    padding: 20px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 12px 2px gray;
+}
+
+.container img {
+    width: 50%;
+}
+
+.benefits p{
+    font-size: 26px;
+}
+
+.benefits li {
+    font-size: 16px;
+
+}
